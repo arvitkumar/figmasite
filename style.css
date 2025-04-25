@@ -1,0 +1,226 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     /* overflow: hidden; */
+ }
+
+ .header {
+     height: 73px;
+     font-family: 'Roboto';
+     display: flex;
+     justify-content: space-between;
+     padding: 0 150px;
+     align-items: center;
+     align-content: center;
+ }
+
+ .logo {
+     height: 33px;
+ }
+
+ .container {
+     background-image: url(assets/images/Section.svg);
+     height: 420px;
+     justify-items: center;
+     justify-content: space-between;
+     justify-content: center;
+     display: flex;
+     gap: 30px;
+     padding: 0 150px;
+     align-items: center;
+     background-size: cover;
+ }
+
+ .heading {
+     color: black;
+     text-decoration: none;
+     border: none;
+ }
+
+ .headings {
+     font-size: 16px;
+     display: flex;
+     gap: 39px;
+     height: 46px;
+     max-width: 680px;
+     font-weight: bold;
+     font-size: 15px;
+     font-family: 'Roboto';
+     align-items: center;
+     border: none;
+ }
+
+ .firstpart {
+     width: 683.3px;
+     height: 255px;
+ }
+
+ .secpart {
+     height: 347px;
+     width: 395px;
+     background-color: white;
+     border-radius: 10px;
+     margin-top: -20px;
+     justify-items: center;
+     padding: 21px 20px;
+ }
+
+ .ayushman {
+     font-size: 40px;
+     font-family: 'Roboto';
+     font-weight: bold;
+     color: white;
+ }
+
+ .line {
+     width: 683.3px;
+     margin: 20px 0;
+     border: 1px solid white;
+     border-color: white;
+     border-radius: 3px;
+ }
+
+ .lii {
+     margin-left: 54px;
+     color: white;
+     font-family: 'Roboto';
+     font-size: 18px;
+     font-weight: 300;
+ }
+
+ .bharat {
+     font-size: 22px;
+     font-family: 'Roboto';
+     font-weight: bold;
+     color: black;
+     justify-self: center;
+ }
+
+ .input {
+     margin-top: 22px;
+     padding: 8px;
+     justify-self: center;
+     height: 44px;
+     width: 355px;
+     /* border-radius: 10px; */
+     justify-self: center;
+     border: none;
+     border-bottom: 2px solid #919191;
+     border-radius: 8px;
+ }
+
+ .containertwo {
+     padding: 20px 150px;
+     justify-content: center;
+     justify-self: center;
+ }
+
+ .linee {
+     width: 223px;
+     height: 1px;
+     background-color: #00C0FF;
+     border: 1.5px solid #00C0FF;
+     border-radius: 3px;
+     margin: 20px 0;
+ }
+
+ .ayushmanbharat {
+     font-size: 15px;
+     font-family: 'Roboto';
+     height: 91px;
+     width: 768px;
+ }
+
+ .ayushmanbha {
+     margin: 31px 0;
+     font-size: 15px;
+     font-family: 'Roboto';
+     height: 116px;
+     width: 757px;
+
+ }
+
+ .ab {
+     width: 757px;
+     font-size: 15px;
+     font-family: 'Roboto';
+     line-height: 24.8px;
+ }
+
+ .lineee {
+     width: 156px;
+     height: 2px;
+     border: #00C0FF 1.5px solid;
+     background-color: #00C0FF;
+     margin: 22px 0;
+
+ }
+
+ .para {
+     font-size: 15px;
+     font-family: 'Roboto';
+     font-weight: 400;
+
+ }
+
+ .grid-container {
+     display: grid;
+     grid-template-columns: repeat(6, 1fr);
+     width: 1120px;
+     grid-template-rows: auto;
+     justify-self: center;
+     gap: 10px;
+ }
+
+ .grid-container img {
+     width: 100%;
+     height: auto;
+     object-fit: cover;
+ }
+
+ .item {
+     align-content: center;
+ }
+
+ .fooor {
+     font-size: 14px;
+     font-weight: 400;
+     color: white;
+     font-family: 'Roboto';
+     line-height: 24.8px;
+ }
+
+ .footertwo {
+     height: 362.2px;
+
+     background-color: #171717;
+     justify-items: center;
+     text-align: left;
+ }
+
+ .lastpara {
+     color: #808080;
+     line-height: 22px;
+ }
+
+ .lastlinks {
+     text-decoration: none;
+     color: #0170b9;
+ }
+
+ .footertwodiv {
+     height: 362.2px;
+     width: 1120px;
+     padding: 14px 0;
+ }
+
+ .gapptwo {
+     margin-top: 33.25px;
+ }
+
+ .gapp {
+     margin: 33.25px 0;
+ }
